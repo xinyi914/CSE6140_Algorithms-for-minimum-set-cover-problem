@@ -6,6 +6,6 @@ This project implements four algorithms for solving the Minimum Set Cover proble
 
 The executable is script.py
 You can run it from the command line with:
-python script.py -inst <filename> -alg [BnB|Approx|hill|annealing] -time <cutoff in seconds> -seed <random seed>
+```python script.py -inst <filename> -alg [BnB|Approx|hill|annealing] -time <cutoff in seconds> -seed <random seed>```
 
 The generated file will be saved to ../output/{alg}
