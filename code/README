@@ -1,0 +1,11 @@
+This project implements four algorithms for solving the Minimum Set Cover problem, including:
+- Branch and Bound (BnB) is in BnB.py
+- Approximation Algorithm is in approx.py
+- Random-Restart Hill Climbing is in hill.py
+- Simulated Annealing is in SA.py
+
+The executable is script.py
+You can run it from the command line with:
+python script.py -inst <filename> -alg [BnB|Approx|hill|annealing] -time <cutoff in seconds> -seed <random seed>
+
+The generated file will be saved to ../output/{alg}
